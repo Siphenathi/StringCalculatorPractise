@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringCalculator_4thPractise.Tests", "StringCalculator_4thPractise.Tests\StringCalculator_4thPractise.Tests.csproj", "{79033841-ACB4-4FB5-8370-2265246330AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79033841-ACB4-4FB5-8370-2265246330AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79033841-ACB4-4FB5-8370-2265246330AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79033841-ACB4-4FB5-8370-2265246330AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79033841-ACB4-4FB5-8370-2265246330AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8FC165F2-B7E3-4AA5-AEA2-ACF1DB993726}
+	EndGlobalSection
+EndGlobal
