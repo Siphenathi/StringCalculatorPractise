@@ -13,13 +13,13 @@ namespace StringCalculator.Logic
                 return 0;
             }
 
-            var listOfInput = Spilt(input);
+            var listOfInput = Split(input);
             var sum = listOfInput.Where(x => int.Parse(x) <= 1000).Sum(int.Parse);
 
             return sum;
         }
 
-        private IEnumerable<string> Spilt(string input)
+        private IEnumerable<string> Split(string input)
         {
             var delimiterInsideTheFirstBracketAndOutsideBracket = GetDelimiter(input);
             var delimiterInSecondBrackets = GetDelimiterInSecondBracket(input);
